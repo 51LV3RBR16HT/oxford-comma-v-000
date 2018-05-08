@@ -1,6 +1,6 @@
 def oxford_comma(array)
   # if array.size < 2
-    array
+    array.join(" and ")
   if array.size == 2
     array.join(" and ")
   else array.size >= 3
